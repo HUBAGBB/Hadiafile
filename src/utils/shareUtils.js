@@ -8,7 +8,7 @@ export const shareFile = async (file) => {
   }
   
   const shareId = Math.random().toString(36).substring(2, 15);
-  const shareLink = `${window.location.origin}/share/${shareId}`;
+  const shareLink = `${window.location.origin}/d/${shareId}`;
 
   const sharedFileRef = doc(db, 'sharedFiles', shareId);
   const sharedFileData = {
