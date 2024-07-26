@@ -86,7 +86,7 @@ const SharedFile = () => {
   };
 
   const copyShareLink = () => {
-    const shareLink = `${window.location.origin}/share/${shareId}`;
+    const shareLink = `${window.location.origin}/d/${shareId}`;
     navigator.clipboard.writeText(shareLink);
     message.success('공유 링크가 클립보드에 복사되었습니다!');
   };
@@ -119,7 +119,7 @@ const SharedFile = () => {
 
   const pageTitle = `Hadiafile - ${fileData.name}`;
   const pageDescription = `Kofile을 통해 공유된 ${fileData.name}을  다운로드하세요! 파일 크기: ${(fileData.size / (1024 * 1024)).toFixed(2)} MB.`;
-  const pageUrl = `${window.location.origin}/share/${shareId}`;
+  const pageUrl = `${window.location.origin}/d/${shareId}`;
   const fileIcon = getFileIcon(fileData.type); // Implement this function to return appropriate icon URL
   const color = getColorForFileType(fileData.type); // Implement this function to return appropriate color
 
@@ -227,7 +227,7 @@ const SharedFile = () => {
       >
         <Space direction="vertical" style={{ width: '100%' }}>
           <Input 
-            value={`${window.location.origin}/share/${shareId}`}
+            value={`${window.location.origin}/d/${shareId}`}
             readOnly
             addonAfter={
               <Tooltip title="Copy link">
