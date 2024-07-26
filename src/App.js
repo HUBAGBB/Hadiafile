@@ -38,7 +38,7 @@ const App = () => {
                 <Route path="/login" element={<Login />} />
                 <Route path="/register" element={<Register />} />
                 <Route path="/profile" element={<PrivateRoute><Profile /></PrivateRoute>} />
-                <Route path="/share/:shareId" element={<SharedFile />} />
+                <Route path="/d/:shareId" element={<SharedFile />} />
               </Routes>
             </div>
           </Content>
