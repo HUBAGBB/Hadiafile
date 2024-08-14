@@ -31,13 +31,17 @@
 
 ## 🚀 데모/UI
 <div align="center">
+  
 - **홈 화면**
+<br/>
 <img src="https://i.postimg.cc/02dcvztx/71.png" alt="Hadiafile" width="500">
 
 - **업로드 대시보드 화면면**
+<br/>
 <img src="https://i.postimg.cc/Jzpxy9V2/72.png" alt="Hadiafile" width="500">
 
 - **로그인/회원가입 화면**
+<br/>
 <img src="https://i.postimg.cc/0Nrf7c92/73.png" alt="Hadiafile" width="500">
 </div>
 
