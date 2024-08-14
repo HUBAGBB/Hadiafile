@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+<div align="center">
+  <img src="path_to_your_logo.svg" alt="Hadiafile" width="300">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  # 🚀 Hadiafile: 파일 공유의 새로운 차원
 
-## Available Scripts
+  [![Made with React](https://img.shields.io/badge/Made%20with-React-61DAFB?style=flat-square&logo=react)](https://reactjs.org/)
+  [![Firebase](https://img.shields.io/badge/Powered%20by-Firebase-FFCA28?style=flat-square&logo=firebase)](https://firebase.google.com/)
+  [![VirusTotal](https://img.shields.io/badge/Secured%20by-VirusTotal-394EFF?style=flat-square&logo=virustotal)](https://www.virustotal.com/)
+  [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
 
-In the project directory, you can run:
+  안전하고 빠른 파일 공유 플랫폼, 하디아파일에 오신 것을 환영합니다!
+</div>
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🌟 주요 특징
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **초고속 업로드** - 번개같은 속도로 파일을 클라우드로 전송
+- **실시간 바이러스 검사** - VirusTotal과 연동하여 모든 파일의 안전성 검증
+- **간편한 공유** - 단 한 번의 클릭으로 생성되는 공유 링크
+- **다크 모드** - 눈의 피로를 줄이는 세련된 다크 테마
+- **사용자 중심 UI** - 직관적이고 현대적인 인터페이스
 
-### `npm test`
+## 🛠 기술 스택
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Frontend**: React, Ant Design
+- **Backend**: Firebase
+- **보안**: VirusTotal API
+- **배포**: Vercel
 
-### `npm run build`
+## 🚀 시작하기
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **클론 & 설치**
+   ```bash
+   git clone https://github.com/yourusername/hadiafile.git
+   cd hadiafile
+   npm install
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. **환경 설정**
+   ```bash
+   cp .env.example .env.local
+   ```
+   `.env.local` 파일을 열고 필요한 API 키와 설정을 입력하세요.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. **개발 서버 실행**
+   ```bash
+   npm start
+   ```
 
-### `npm run eject`
+4. 브라우저에서 `http://localhost:3000`을 열어 하디아파일을 만나보세요!
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📘 사용 가이드
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. **파일 업로드**
+   - '업로드' 버튼 클릭 또는 파일을 드래그 & 드롭
+   - 실시간 바이러스 검사 진행
+   - 안전 확인 후 업로드 완료
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. **파일 공유**
+   - 업로드 완료 후 자동 생성된 공유 링크 복사
+   - 링크를 통해 누구나 파일 다운로드 가능
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. **파일 관리**
+   - 대시보드에서 업로드한 모든 파일 확인 및 관리
+   - 필요 시 파일 삭제 또는 링크 비활성화
 
-## Learn More
+## 🤝 기여하기
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+하디아파일의 발전에 함께해 주세요! 기여 방법:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. 이 저장소 Fork
+2. 새 Branch 생성 (`git checkout -b feature/AmazingFeature`)
+3. 변경사항 Commit (`git commit -m 'Add some AmazingFeature'`)
+4. Branch에 Push (`git push origin feature/AmazingFeature`)
+5. Pull Request 오픈
 
-### Code Splitting
+자세한 내용은 [CONTRIBUTING.md](CONTRIBUTING.md)를 참조해 주세요.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📜 라이선스
 
-### Analyzing the Bundle Size
+이 프로젝트는 MIT 라이선스 하에 배포됩니다. 자세한 내용은 [LICENSE](LICENSE) 파일을 참조하세요.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<div align="center">
+  <sub>Built with ❤️ by <a href="https://github.com/yourusername">Your Team</a></sub>
+</div>
