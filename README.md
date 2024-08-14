@@ -29,27 +29,24 @@
 - **배포**: Vercel
 
 
-## 🚀 데모/UI
-  
-- **홈 화면**
-<br/>
-<div align="center">
-<img src="https://i.postimg.cc/02dcvztx/71.png" alt="Hadiafile" width="1000">
-</div>
+## 🎥 데모
 
-<br/>
-- **업로드 대시보드 화면면**
-<br/>
-<div align="center">
-<img src="https://i.postimg.cc/Jzpxy9V2/72.png" alt="Hadiafile" width="1000">
-</div>
+Hadiafile의 주요 기능을 직접 확인해보세요.
 
-<br/>
-- **로그인/회원가입 화면**
-<br/>
-<div align="center">
-<img src="https://i.postimg.cc/0Nrf7c92/73.png" alt="Hadiafile" width="1000">
-</div>
+### 홈 화면
+![홈 화면](https://i.postimg.cc/02dcvztx/71.png)
+
+### 메인 대시보드
+![메인 대시보드](https://i.postimg.cc/02dcvztx/72.png)
+
+### 공유 링크 생성
+![공유 링크 생성](https://i.postimg.cc/fRY3pd5j/2024-08-14-190210297.png)
+
+### 로그인/회원가입 페이지
+![로그인/회원가입 페이지](https://i.postimg.cc/0Nrf7c92/73.png)
+
+실제 동작하는 Hadiafile을 [여기](https://hadiafile.xyz)에서 체험해보세요.
+
 
 
 ## 🚀 시작하기
