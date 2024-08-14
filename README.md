@@ -1,11 +1,11 @@
 # Hadiafile
 
 <div align="center">
-  <img src="https://i.pinimg.com/originals/04/4d/12/044d12b83f0f1aa1012563a4701b0531.gif" alt="Hadiafile Logo" width="200"/>
+  <img src="https://i.pinimg.com/originals/04/4d/12/044d12b83f0f1aa1012563a4701b0531.gif" alt="Hadiafile Logo" width="400"/>
   
   안전하고 빠른 파일 공유의 새로운 기준
 
-  ![GitHub stars](https://img.shields.io/github/stars/yourusername/hadiafile?style=for-the-badge)
+  ![GitHub stars](https://img.shields.io/github/stars/HUBAGBB/Hadiafile?style=for-the-badge)
   [![Made with React](https://img.shields.io/badge/Made%20with-React-61DAFB?style=flat-square&logo=react)](https://reactjs.org/)
   [![VirusTotal](https://img.shields.io/badge/Secured%20by-VirusTotal-394EFF?style=flat-square&logo=virustotal)](https://www.virustotal.com/)
   [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
