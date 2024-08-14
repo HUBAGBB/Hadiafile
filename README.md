@@ -28,6 +28,18 @@
 - **보안**: VirusTotal API
 - **배포**: Vercel
 
+## 🚀 데모/UI
+
+<img src="https://i.postimg.cc/02dcvztx/71.png" alt="Hadiafile" width="300">
+**홈 화면**
+
+<img src="https://i.postimg.cc/Jzpxy9V2/72.png" alt="Hadiafile" width="300">
+**업로드 대시보드 화면면**
+
+<img src="https://i.postimg.cc/0Nrf7c92/73.png" alt="Hadiafile" width="300">
+**로그인/회원가입 화면**
+
+
 ## 🚀 시작하기
 
 1. **클론 & 설치**
