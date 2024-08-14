@@ -1,14 +1,14 @@
 # Hadiafile
 
 <div align="center">
-  <img src="path_to_your_logo.png" alt="Hadiafile Logo" width="200"/>
+  <img src="https://i.pinimg.com/originals/04/4d/12/044d12b83f0f1aa1012563a4701b0531.gif" alt="Hadiafile Logo" width="200"/>
   
   안전하고 빠른 파일 공유의 새로운 기준
 
-  [![Build Status](https://img.shields.io/travis/yourusername/hadiafile/master.svg?style=flat-square)](https://travis-ci.org/yourusername/hadiafile)
-  [![Coverage Status](https://img.shields.io/codecov/c/github/yourusername/hadiafile/master.svg?style=flat-square)](https://codecov.io/gh/yourusername/hadiafile)
-  [![License](https://img.shields.io/github/license/yourusername/hadiafile.svg?style=flat-square)](LICENSE)
-  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+  ![GitHub stars](https://img.shields.io/github/stars/yourusername/hadiafile?style=for-the-badge)
+  [![Made with React](https://img.shields.io/badge/Made%20with-React-61DAFB?style=flat-square&logo=react)](https://reactjs.org/)
+  [![VirusTotal](https://img.shields.io/badge/Secured%20by-VirusTotal-394EFF?style=flat-square&logo=virustotal)](https://www.virustotal.com/)
+  [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
 
   [English](./README_EN.md) | 한국어 | [日本語](./README_JA.md)
 </div>
