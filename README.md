@@ -53,15 +53,12 @@ Hadiafile의 주요 기능을 직접 확인해보세요.
 
 1. **클론 & 설치**
    ```bash
-   git clone https://github.com/yourusername/hadiafile.git
+   git clone https://github.com/HUBAGBB/Hadiafile.git
    cd hadiafile
    npm install
    ```
 
 2. **환경 설정**
-   ```bash
-   cp .env.example .env.local
-   ```
    `.env.local` 파일을 열고 필요한 API 키와 설정을 입력하세요.
 
 3. **개발 서버 실행**
