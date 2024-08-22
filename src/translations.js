@@ -1,0 +1,297 @@
+export const translations = {
+    en: {
+      // Login Page
+      welcome: "Welcome Back",
+      email: "Email",
+      password: "Password",
+      login: "Log in",
+      forgotPassword: "Forgot password?",
+      dontHaveAccount: "Don't have an account?",
+      rememberMe: "Remember me",
+      loginSuccessMsg: "Login successful!",
+      loginFailsMsg: "Error occurred during login:",
+      loginFailMsg2: "Login failed. Please try again!",      
+
+      // Register Page
+      create: "Create Account",
+      register: "Register",
+      agreement: "I have read and agree to the",
+      agreementTerm: "terms of use and privacy policy",
+      alreadyHaveAccount: "Already have an account?",
+      rePassword: "Confirm Password",
+      registerSuccessMsg: "Registration complete. Please log in!",
+      registerFailsMsg: "Error occurred during registration:",
+      registerFailMsg2: "Registration failed. Please try again!",
+
+      
+      // Header
+      home: "Home",
+      upload: "Upload",
+      login: "Sign-In",
+  
+      // Home Page
+      heroTitle: "Hadiafile",
+      heroTitle2: "for Professionals",
+      heroSubtitle: "Experience seamless collaboration and uncompromising security with Hadiafile. Your files, your control, anywhere, anytime.",
+      getStarted: "Get Started",
+      whyChooseUs: "Why Choose Hadiafile?",
+      easyUpload: "Easy Upload",
+      easyUploadDesc: "Effortlessly upload and organize your files with our intuitive interface.",
+      secureSharingTitle: "Secure Sharing",
+      secureSharingDesc: "Share files with advanced encryption and granular access controls.",
+      collaborateTitle: "Collaborate",
+      collaborateDesc: "Work together in real-time on shared files and projects.",
+      fastTransferTitle: "Fast Transfer",
+      fastTransferDesc: "Experience lightning-fast file transfers globally.",
+      fileSharedText: "Files Shared",
+      happyUserText: "Happy Users",
+      servedConuntryText: "Countries Served",
+      howToWork: "How It Works",
+      howToWorkUpload: "Upload",
+      howToWorkUploadTitle: "Simple File Upload",
+      howToWorkUploadDec: "Drag and drop your files or use our intuitive file picker. Your files are instantly encrypted and securely stored.",
+      howToWorkShare: "Share",
+      howToWorkShareTitle: "Secure File Sharing",
+      howToWorkShareDec: "Generate secure links or invite collaborators directly. Set permissions and expiration dates for enhanced control.",
+      howToWorkColabo: "Collaborate",
+      howToWorkColaboTitle: "Real-time Collaboration",
+      howToWorkColaboDec: "Work together on documents, leave comments, and track changes. Stay in sync with your team, no matter where you are.",
+      clientTitle: "What Our Clients Say",
+      clientSay1: "Hadiafile has revolutionized our team's file sharing process.",
+      clientSay2: "The collaboration features are a game-changer for our projects.",
+      clientSay3: "Security features give us peace of mind with sensitive documents.",
+      qnaTitle: "Frequently Asked Questions",
+      qTitle1: "Is my data secure?",
+      qTitle2: "How much storage do I get?",
+      qTitle3: "Can I access my files offline?",
+      aTitle1: "Yes, we use end-to-end encryption to ensure your data is secure at all times. Only you and those you choose to share with can access your files.",
+      aTitle2: "Non-members get 5 GB of storage. Members get up to 100 GB of storage.",
+      aTitle3: "Yes, you can mark files for offline access. These will be available even without an internet connection.",
+      getStarted: "Ready to Get Started?",
+      getStartedDec: "Join thousands of satisfied users and experience the future of file sharing today.",
+  
+      // Upload Page
+      dragDropText: "Drag and drop files here, or click to select files",
+      dragDropSubText: "You can upload a single file or multiple files. Please avoid uploading highly sensitive files! File size limit: 5GB",
+      uploadingText: "Uploading...",
+      uploadSuccessText: "Upload successful!",
+      uploadErrorText: "Upload failed. Please try again.",
+      dashboardText: "Hadiafile Dashboard",
+      fileUploadText: "File Upload",
+      fileUploadedText: "Uploaded Files",
+      
+  
+      // Shared File Page
+      fileNotFound: "File not found",
+      fileSize: "File Size",
+      sharedOn: "Shared On",
+      sharedBy: "Shared By",
+      download: "Download",
+      
+      // Agreement Modal
+      termsAndConditions: "Terms and Conditions",
+      agreeAndContinue: "Agree and Continue",
+  
+      // Error messages
+      requiredField: "This field is required",
+      invalidEmail: "Please enter a valid email address",
+      passwordMismatch: "The two passwords do not match",
+    },
+    ko: {
+      // Login Page
+      welcome: "환영합니다",
+      email: "이메일",
+      password: "비밀번호",
+      login: "로그인",
+      forgotPassword: "비밀번호를 잊으셨나요?",
+      dontHaveAccount: "계정이 없으신가요?",
+      rememberMe: "아이디 기억하기",
+      loginSuccessMsg: "로그인 되었습니다!",
+      loginFailsMsg: "로그인 도중 오류 발생:",
+      loginFailMsg2: "로그인 실패. 다시 시도해주세요!",
+
+
+      // Register Page
+      create: "계정을 생성 해보아요!",
+      register: "회원가입",
+      agreement: "필수 약관에 동의합니다.",
+      agreementTerm: "이용 약관 및 개인정보 처리 방침",
+      alreadyHaveAccount: "이미 계정이 있으신가요?",
+      rePassword: "비밀번호 재입력",
+      registerSuccessMsg: "회원가입 완료. 로그인해주세요!",
+      registerFailsMsg: "회원가입 도중 에러 발생:",
+      registerFailMsg2: "회원가입 실패. 다시 시도해주세요!",
+      
+      // Header
+      home: "홈",
+      upload: "업로드",
+      login: "로그인",
+  
+      // Home Page
+      heroTitle: "하디아파일",
+heroTitle2: "for Professionals",
+heroSubtitle: "Hadiafile과 함께 원활한 협업과 타협 없는 보안을 경험하세요. 언제 어디서나, 파일은 당신의 통제 하에 있습니다.",
+getStarted: "시작하기",
+whyChooseUs: "하디아파일을 선택해야 하는 이유?",
+easyUpload: "간편한 업로드",
+easyUploadDesc: "직관적인 인터페이스로 파일을 손쉽게 업로드하고 정리하세요.",
+secureSharingTitle: "안전한 공유",
+secureSharingDesc: "고급 암호화와 세부적인 접근 제어로 파일을 안전하게 공유하세요.",
+collaborateTitle: "협업",
+collaborateDesc: "공유된 파일과 프로젝트에서 실시간으로 함께 작업하세요.",
+fastTransferTitle: "빠른 전송",
+fastTransferDesc: "전 세계 어디서나 초고속 파일 전송을 경험하세요.",
+fileSharedText: "공유된 파일",
+happyUserText: "만족하는 사용자",
+servedConuntryText: "서비스된 국가",
+howToWork: "사용 방법",
+howToWorkUpload: "업로드",
+howToWorkUploadTitle: "간편한 파일 업로드",
+howToWorkUploadDec: "파일을 드래그 앤 드롭하거나 직관적인 파일 선택기를 사용하세요. 파일은 즉시 암호화되어 안전하게 저장됩니다.",
+howToWorkShare: "공유",
+howToWorkShareTitle: "안전한 파일 공유",
+howToWorkShareDec: "안전한 링크를 생성하거나 직접 협업자를 초대하세요. 권한 설정 및 만료일을 지정하여 더 강력하게 통제하세요.",
+howToWorkColabo: "협업",
+howToWorkColaboTitle: "실시간 협업",
+howToWorkColaboDec: "문서에서 함께 작업하고, 댓글을 남기고, 변경 사항을 추적하세요. 팀과 함께 어디서든 동기화 상태를 유지하세요.",
+clientTitle: "고객의 말",
+clientSay1: "하디아파일 덕분에 우리 팀의 파일 공유 프로세스가 혁신되었습니다.",
+clientSay2: "협업 기능은 우리 프로젝트에 큰 변화를 가져왔습니다.",
+clientSay3: "보안 기능 덕분에 민감한 문서에 대해 안심할 수 있습니다.",
+qnaTitle: "자주 묻는 질문",
+qTitle1: "내 데이터는 안전한가요?",
+qTitle2: "얼마나 많은 저장 공간을 제공받나요?",
+qTitle3: "오프라인에서 파일을 접근할 수 있나요?",
+aTitle1: "네, 우리는 종단 간 암호화를 사용하여 항상 데이터를 안전하게 보호합니다. 귀하와 공유를 허락한 사람들만 파일에 접근할 수 있습니다.",
+aTitle2: "비회원은 5GB의 저장 공간을 제공받으며, 회원은 최대 100GB의 저장 공간을 사용할 수 있습니다.",
+aTitle3: "네, 파일을 오프라인 접근 가능하도록 설정할 수 있습니다. 이 파일들은 인터넷 연결 없이도 사용할 수 있습니다.",
+getStarted: "지금 시작할 준비가 되셨나요?",
+getStartedDec: "수천 명의 만족한 사용자와 함께 오늘날 파일 공유의 미래를 경험하세요.",
+
+  
+      // Upload 관련
+      dragDropText: "파일을 여기에 드래그하거나 클릭하여 업로드해 주세요",
+      dragDropSubText: "단일 파일 또는 여러 파일을 업로드할 수 있습니다. 매우 민감한 파일의 업로드는 삼가해주세요! 파일 크기 제한: 5GB",
+      uploadingText: "업로드 중...",
+      uploadSuccessText: "업로드 성공!",
+      uploadErrorText: "업로드 실패. 다시 시도해 주세요.",
+      dashboardText: "하디아파일 대시보드",
+      fileUploadText: "파일 업로드",
+      fileUploadedText: "업로드된 파일",
+  
+      // Shared File Page
+      fileNotFound: "파일을 찾을 수 없습니다",
+      fileSize: "파일 크기",
+      sharedOn: "공유 날짜",
+      sharedBy: "공유자",
+      download: "다운로드",
+      
+      // Agreement Modal
+      termsAndConditions: "이용 약관 및 개인정보 처리 방침",
+      backToRegister: "회원가입 페이지로 돌아가기",
+  
+      // All Error messages
+      requiredField: "이 필드는 필수입니다",
+      invalidEmail: "유효한 이메일 주소를 입력해 주세요",
+      passwordMismatch: "두 비밀번호가 일치하지 않습니다",
+    },
+    ja: {
+      // Login, Register Page
+      welcome: "おかえりなさい",
+      email: "メールアドレス",
+      password: "パスワード",
+      login: "ログイン",
+      forgotPassword: "パスワードをお忘れですか？",
+      dontHaveAccount: "アカウントをお持ちでない方",
+      rememberMe: "ログイン情報を保存する",
+      loginSuccessMsg: "ログインに成功しました！",
+      loginFailsMsg: "ログイン中にエラーが発生しました：",
+      loginFailMsg2: "ログインに失敗しました。もう一度お試しください！",
+      
+      // 登録ページ
+  create: "アカウントを作成",
+  register: "登録",
+  agreement: "私は以下を読み、同意します",
+  agreementTerm: "利用規約とプライバシーポリシー",
+  alreadyHaveAccount: "すでにアカウントをお持ちですか？",
+  rePassword: "パスワードの確認",
+  registerSuccessMsg: "登録が完了しました。ログインしてください！",
+  registerFailsMsg: "登録中にエラーが発生しました：",
+  registerFailMsg2: "登録に失敗しました。もう一度お試しください！",
+
+  
+  // ヘッダー
+  home: "ホーム",
+  upload: "アップロード",
+  login: "サインイン",
+
+  // ホームページ
+  heroTitle: "Hadiafile",
+  heroTitle2: "プロフェッショナル向け",
+  heroSubtitle: "Hadiafileで、シームレスな共同作業と妥協のないセキュリティを体験してください。あなたのファイル、あなたのコントロール、いつでもどこでも。",
+  getStarted: "始める",
+  whyChooseUs: "なぜHadiafileを選ぶのか？",
+  easyUpload: "簡単アップロード",
+  easyUploadDesc: "直感的なインターフェースで、ファイルを簡単にアップロードし整理できます。",
+  secureSharingTitle: "安全な共有",
+  secureSharingDesc: "高度な暗号化と詳細なアクセス制御でファイルを共有します。",
+  collaborateTitle: "共同作業",
+  collaborateDesc: "共有ファイルやプロジェクトでリアルタイムに協力して作業します。",
+  fastTransferTitle: "高速転送",
+  fastTransferDesc: "世界中で超高速のファイル転送を体験してください。",
+  fileSharedText: "共有されたファイル",
+  happyUserText: "満足しているユーザー",
+  servedConuntryText: "サービス提供国",
+  howToWork: "使い方",
+  howToWorkUpload: "アップロード",
+  howToWorkUploadTitle: "簡単なファイルアップロード",
+  howToWorkUploadDec: "ファイルをドラッグ＆ドロップするか、直感的なファイル選択機能を使用してください。ファイルは即座に暗号化され、安全に保存されます。",
+  howToWorkShare: "共有",
+  howToWorkShareTitle: "安全なファイル共有",
+  howToWorkShareDec: "安全なリンクを生成するか、共同作業者を直接招待します。権限や有効期限を設定して、より高度な制御が可能です。",
+  howToWorkColabo: "共同作業",
+  howToWorkColaboTitle: "リアルタイムコラボレーション",
+  howToWorkColaboDec: "ドキュメントを共同で作業し、コメントを残し、変更を追跡します。どこにいても、チームと同期を保つことができます。",
+  clientTitle: "クライアントの声",
+  clientSay1: "Hadiafileは私たちのチームのファイル共有プロセスを革新しました。",
+  clientSay2: "コラボレーション機能は私たちのプロジェクトにとって画期的です。",
+  clientSay3: "セキュリティ機能により、機密文書の取り扱いに安心感があります。",
+  qnaTitle: "よくある質問",
+  qTitle1: "私のデータは安全ですか？",
+  qTitle2: "どれくらいのストレージ容量がありますか？",
+  qTitle3: "オフラインでファイルにアクセスできますか？",
+  aTitle1: "はい、エンドツーエンドの暗号化を使用して、常にデータの安全を確保しています。あなたと、あなたが共有を選択した人だけがファイルにアクセスできます。",
+  aTitle2: "非会員は5GBのストレージを利用できます。会員は最大100GBのストレージを利用できます。",
+  aTitle3: "はい、ファイルをオフラインアクセス用にマークできます。これらはインターネット接続がなくても利用可能です。",
+  getStarted: "始める準備はできましたか？",
+  getStartedDec: "数千人の満足しているユーザーに加わり、今日からファイル共有の未来を体験してください。",
+
+  // アップロードページ
+  dragDropText: "ここにファイルをドラッグ＆ドロップするか、クリックしてファイルを選択してください",
+  dragDropSubText: "単一のファイルまたは複数のファイルをアップロードできます。非常に機密性の高いファイルのアップロードは避けてください！ファイルサイズ制限：5GB",
+  uploadingText: "アップロード中...",
+  uploadSuccessText: "アップロード成功！",
+  uploadErrorText: "アップロードに失敗しました。もう一度お試しください。",
+  dashboardText: "Hadiafileダッシュボード",
+  fileUploadText: "ファイルアップロード",
+  fileUploadedText: "アップロードされたファイル",
+  
+
+  // 共有ファイルページ
+  fileNotFound: "ファイルが見つかりません",
+  fileSize: "ファイルサイズ",
+  sharedOn: "共有日",
+  sharedBy: "共有者",
+  download: "ダウンロード",
+  
+  // 同意モーダル
+  termsAndConditions: "利用規約",
+  agreeAndContinue: "同意して続行",
+
+  // エラーメッセージ
+  requiredField: "この項目は必須です",
+  invalidEmail: "有効なメールアドレスを入力してください",
+  passwordMismatch: "2つのパスワードが一致しません"
+    },
+    // 必要に応じて他の言語を追加してください
+  };
