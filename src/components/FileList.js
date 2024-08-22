@@ -1,10 +1,14 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import { List, Avatar, Space, Button, Popconfirm, message, Tooltip, Modal, Input } from 'antd';
 import { DeleteOutlined, DownloadOutlined, ShareAltOutlined, FileOutlined, FilePdfOutlined, FileImageOutlined, FileZipOutlined } from '@ant-design/icons';
 import { deleteFile, deleteFileFromStorage, auth } from '../services/firebase';
 import { shareFile } from '../utils/shareUtils';
+import { LanguageContext } from '../contexts/LanguageContext';
+import { translations } from '../translations';
 
 const FileItem = ({ file, onDelete }) => {
+  const { language } = useContext(LanguageContext);
+  const t = translations[language];
   const [isShareModalVisible, setIsShareModalVisible] = useState(false);
   const [shareLink, setShareLink] = useState('');
 

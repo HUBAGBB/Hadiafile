@@ -1,12 +1,16 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import { Upload, message } from 'antd';
 import { InboxOutlined } from '@ant-design/icons';
 import { uploadFile, addFile, auth } from '../services/firebase';
 import { v4 as uuidv4 } from 'uuid';
+import { LanguageContext } from '../contexts/LanguageContext';
+import { translations } from '../translations';
 
 const { Dragger } = Upload;
 
 const FileUploader = ({ onFileUploaded }) => {
+  const { language } = useContext(LanguageContext);
+  const t = translations[language];
   const [uploading, setUploading] = useState(false);
 
   const handleUpload = async (file) => {
@@ -84,9 +88,9 @@ const FileUploader = ({ onFileUploaded }) => {
       <p className="ant-upload-drag-icon">
         <InboxOutlined />
       </p>
-      <p className="ant-upload-text">파일을 여기에 클릭하거나 드래그해서 업로드해 주세요</p>
+      <p className="ant-upload-text">{t.dragDropText}</p>
       <p className="ant-upload-hint">
-      단일 파일 또는 여러 파일을 업로드할 수 있습니다. 회사 데이터나 기타 민감한 파일의 업로드는 삼가해주세요! 파일 크기 제한: 5GB
+      {t.dragDropSubText}
       </p>
     </Dragger>
   );
