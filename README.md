@@ -1,7 +1,7 @@
 <div align="center">
   <img src="https://i.pinimg.com/originals/04/4d/12/044d12b83f0f1aa1012563a4701b0531.gif" alt="Hadiafile" width="300">
 
-  # 🚀 Hadiafile: 파일 공유의 새로운 차원
+  # Hadiafile: 파일 공유의 새로운 차원
 
   [![Made with React](https://img.shields.io/badge/Made%20with-React-61DAFB?style=flat-square&logo=react)](https://reactjs.org/)
   [![Firebase](https://img.shields.io/badge/Powered%20by-Firebase-FFCA28?style=flat-square&logo=firebase)](https://firebase.google.com/)
@@ -13,7 +13,7 @@
 
 ---
 
-## 🌟 주요 특징
+## 주요 특징
 
 - **초고속 업로드** - 번개같은 속도로 파일을 클라우드로 전송
 - **실시간 바이러스 검사** - VirusTotal과 연동하여 모든 파일의 안전성 검증
@@ -21,7 +21,7 @@
 - **다크 모드** - 눈의 피로를 줄이는 세련된 다크 테마
 - **사용자 중심 UI** - 직관적이고 현대적인 인터페이스
 
-## 🛠 기술 스택
+## 기술 스택
 
 - **Frontend**: React, Ant Design
 - **Backend**: Firebase
@@ -29,7 +29,7 @@
 - **배포**: Vercel
 
 
-## 🎥 데모
+## 데모
 
 Hadiafile의 주요 기능을 직접 확인해보세요.
 
@@ -49,7 +49,7 @@ Hadiafile의 주요 기능을 직접 확인해보세요.
 
 
 
-## 🚀 시작하기
+## 시작하기
 
 1. **클론 & 설치**
    ```bash
@@ -71,7 +71,7 @@ Hadiafile의 주요 기능을 직접 확인해보세요.
 
 4. 브라우저에서 `http://localhost:3000`을 열어 하디아파일을 만나보세요!
 
-## 📘 사용 가이드
+## 사용 가이드
 
 1. **파일 업로드**
    - '업로드' 버튼 클릭 또는 파일을 드래그 & 드롭
@@ -86,7 +86,7 @@ Hadiafile의 주요 기능을 직접 확인해보세요.
    - 대시보드에서 업로드한 모든 파일 확인 및 관리
    - 필요 시 파일 삭제 또는 링크 비활성화
 
-## 🤝 기여하기
+## 기여하기
 
 하디아파일의 발전에 함께해 주세요! 기여 방법:
 
@@ -98,7 +98,7 @@ Hadiafile의 주요 기능을 직접 확인해보세요.
 
 자세한 내용은 [CONTRIBUTING.md](CONTRIBUTING.md)를 참조해 주세요.
 
-## 📜 라이선스
+## 라이선스
 
 이 프로젝트는 MIT 라이선스 하에 배포됩니다. 자세한 내용은 [LICENSE](LICENSE) 파일을 참조하세요.
 
