@@ -1,15 +1,20 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
 import { Layout, Typography, Space, Card } from 'antd';
 import { CloudUploadOutlined } from '@ant-design/icons';
 import FileUploader from '../components/FileUploader';
 import FileList from '../components/FileList';
 import { auth, db } from '../services/firebase';
 import { collection, query, where, getDocs } from 'firebase/firestore';
+import { LanguageContext } from '../contexts/LanguageContext';
+import { translations } from '../translations';
+import AppHeader from '../components/Header2';
 
 const { Content } = Layout;
 const { Title } = Typography;
 
 const UploadPage = () => {
+  const { language } = useContext(LanguageContext);
+  const t = translations[language];
   const [files, setFiles] = useState([]);
 
   useEffect(() => {
@@ -32,19 +37,20 @@ const UploadPage = () => {
 
   return (
     <Layout className="layout" style={{ minHeight: '100vh', background: '#000000' }}>
+      <AppHeader/>
       <Content>
         <Space direction="vertical" size="large" style={{ width: '100%' }}>
           <Card>
             <Title level={2} style={{ marginBottom: 0 }}>
-              <CloudUploadOutlined /> Hadiafile 대시보드
+              <CloudUploadOutlined /> {t.dashboardText}
             </Title>
           </Card>
           
-          <Card title="파일 업로드">
+          <Card title={t.fileUploadText}>
             <FileUploader onFileUploaded={handleFileUploaded} />
           </Card>
           
-          <Card title="업로드된 파일">
+          <Card title={t.fileUploadedText}>
             <FileList files={files} setFiles={setFiles} />
           </Card>
         </Space>

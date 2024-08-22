@@ -1,68 +1,134 @@
-import React from 'react';
-import { Form, Input, Button, Layout, Typography, message } from 'antd';
+import React, { useContext } from 'react';
+import { Form, Input, Button, Checkbox, Typography, Layout, Row, Col, message } from 'antd';
 import { UserOutlined, LockOutlined } from '@ant-design/icons';
 import { useNavigate } from 'react-router-dom';
-import AppHeader from '../components/Header';
+import AppHeader from '../components/Header1';
 import { loginUser } from '../services/firebase';
+import styled from 'styled-components';
+import { Link } from 'react-router-dom';
+import { motion } from 'framer-motion';
+import { LanguageContext } from '../contexts/LanguageContext';
+import { translations } from '../translations';
 
+
+const { Title, Text } = Typography;
 const { Content } = Layout;
-const { Title } = Typography;
+
+const PageBackground = styled.div`
+  background: #121212;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+
+const LoginCard = styled.div`
+  background: #1e1e1e;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  width: 800px;
+  display: flex;
+`;
+
+const LoginForm = styled(Form)`
+  padding: 40px;
+  flex: 1;
+`;
+
+const LoginImage = styled.div`
+  flex: 1;
+  background: url('https://iili.io/dlw1Dge.md.jpg') center/cover no-repeat;
+`;
+
+const StyledInput = styled(Input)`
+  height: 50px;
+  border-radius: 25px;
+  background: #2c2c2c;
+  border-color: #3a3a3a;
+  color: #ffffff;
+
+  &::placeholder {
+    color: #888;
+  }
+
+  &:hover, &:focus {
+    border-color: #4a90e2;
+  }
+`;
+
+const StyledButton = styled(Button)`
+  height: 50px;
+  border-radius: 25px;
+  background: #4a90e2;
+  border-color: #4a90e2;
+  &:hover {
+    background: #357bd8;
+    border-color: #357bd8;
+  }
+`;
 
 const Login = () => {
+  const { language } = useContext(LanguageContext);
+  const t = translations[language];
   const navigate = useNavigate();
 
   const onFinish = async (values) => {
     try {
       await loginUser(values.email, values.password);
-      message.success('로그인 되었습니다!');
+      message.success(`${t.loginSuccessMsg}`);
       navigate('/');
     } catch (error) {
-      console.error('로그인 도중 오류 발생:', error);
-      message.error('로그인 실패. 다시 시도해주세요!');
+      console.error(`${t.loginFailMsg}`, error);
+      message.error(`${t.loginFailMsg2}`);
     }
   };
 
   return (
-    <Layout className="layout">
-      <Content style={{ padding: '0 50px' }}>
-        <div className="site-layout-content" style={{ margin: '16px 0' }}>
-          <Title level={2}>로그인</Title>
-          <Form
-            name="normal_login"
-            className="login-form"
-            initialValues={{ remember: true }}
-            onFinish={onFinish}
+    <PageBackground>
+      <LoginCard>
+        <LoginImage />
+        <LoginForm
+          name="normal_login"
+          initialValues={{ remember: true }}
+          onFinish={onFinish}
+        >
+          <Title level={2} style={{ marginBottom: '30px', color: '#ffffff' }}>{t.welcome}</Title>
+          <Form.Item
+            name="email"
+            rules={[{ required: true, message: `Please input your ${t.email}!` }]}
           >
-            <Form.Item
-              name="email"
-              rules={[
-                { required: true, message: '이메일을 입력해주세요!' },
-                { type: 'email', message: '올바른 이메일 형식으로 입력해주세요!' }
-              ]}
-            >
-              <Input prefix={<UserOutlined className="site-form-item-icon" />} placeholder="이메일" />
+            <StyledInput prefix={<UserOutlined />} placeholder={t.email} />
+          </Form.Item>
+          <Form.Item
+            name="password"
+            rules={[{ required: true, message: `Please input your ${t.password}!` }]}
+          >
+            <StyledInput
+              prefix={<LockOutlined />}
+              type="password"
+              placeholder={t.password}
+            />
+          </Form.Item>
+          <Form.Item>
+            <Form.Item name="remember" valuePropName="checked" noStyle>
+              <Checkbox style={{ color: '#888' }}>{t.rememberMe}</Checkbox>
             </Form.Item>
-            <Form.Item
-              name="password"
-              rules={[{ required: true, message: '비밀번호를 입력해주세요!' }]}
-            >
-              <Input
-                prefix={<LockOutlined className="site-form-item-icon" />}
-                type="password"
-                placeholder="비밀번호"
-              />
-            </Form.Item>
-            <Form.Item>
-              <Button type="primary" htmlType="submit" className="login-form-button">
-                로그인
-              </Button>
-              또는 <a href="/register">회원가입</a>
-            </Form.Item>
-            <p>업로드 제한 악용 방지를 위한 로그인 절차이며, 모든 로그는 1분내로 서버에서 자동 파기됩니다.</p>
-          </Form>
-        </div>
-      </Content>
-    </Layout>
+            <Link to="/forgot-password" style={{ float: 'right', color: '#4a90e2' }}>
+              {t.forgotPassword}
+            </Link>
+          </Form.Item>
+          <Form.Item>
+            <StyledButton type="primary" htmlType="submit" block>
+              {t.login}
+            </StyledButton>
+          </Form.Item>
+          <Text style={{ display: 'block', textAlign: 'center', color: '#888' }}>
+            {t.dontHaveAccount} <Link to="/register" style={{ color: '#4a90e2' }}>{t.register}</Link>
+          </Text>
+        </LoginForm>
+      </LoginCard>
+    </PageBackground>
   );
 };
 
