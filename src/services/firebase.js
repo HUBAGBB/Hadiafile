@@ -1,4 +1,3 @@
-// src/services/firebase.js
 import { initializeApp } from 'firebase/app';
 import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut } from 'firebase/auth';
 import { getFirestore, collection, addDoc, getDocs, deleteDoc, doc } from 'firebase/firestore';
@@ -7,12 +6,6 @@ import { getStorage, ref, uploadBytes, getDownloadURL, deleteObject } from 'fire
 const firebaseConfig = {
   // Your web app's Firebase configuration
   // Replace with your actual Firebase config object
-  apiKey: "AIzaSyBuPohhh3mhxzdGOFrjt7XbmC2v0Kx9u9c",
-  authDomain: "hwasungflix.firebaseapp.com",
-  projectId: "hwasungflix",
-  storageBucket: "hwasungflix.appspot.com",
-  messagingSenderId: "864248956011",
-  appId: "1:864248956011:web:4d23ed52dd0d3112471d2e",
 };
 
 // Initialize Firebase
